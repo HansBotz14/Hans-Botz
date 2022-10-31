@@ -38,12 +38,12 @@ global.thumb = fs.readFileSync("./src/papah2.jpg")
 global.profil = fs.readFileSync("./src/papah.png")
 global.zippy = (await import('./lib/zippy.cjs')).zippy
 global.tiny = (await import('./lib/tiny.cjs')).default
-global.gc = "https://chat.whatsapp.com/KYIzgolOI1I66efv9UMfch"
-global.gh = "https://github.com/FahriAdison"
+global.gc = "blm ada"
+global.gh = "https://github.com/Hans-Botz"
 global.yt = "https://bit.ly/Papah-Chan"
-global.wm = '                「 ꜱᴀᴅ BOT あ⁩ 」' 
+global.wm = '                「 Hans BOT あ⁩ 」' 
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ꜱᴀᴅ 𝗕𝗢𝗧'
+global.wm3 = '⫹⫺ hans 𝗕𝗢𝗧'
 function ucapan() {
 	var time = moment.tz('Asia/Jakarta').format('HH')
 	var res
@@ -118,10 +118,10 @@ global.log = function log() {
 	console.log.apply(console, args);
 }
 global.owner = [
-	//  ['6281234288573'],
+	//  ['62895324783084'],
 	//['12546153210'],
-	['62895612153565', 'Johannes', true],
-	['6282287219167', 'Papah-Chan', true]
+	['6287773311781', 'Hans Botz', true],
+	['62895324783084', 'Hans', true]
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
